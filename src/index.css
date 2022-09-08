@@ -1,13 +1,113 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+nav {
+  font-size: 12px;
+}
+
+#first {
+  background: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
+    url("../src/assets/e-learning.png");
+  height: 90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#second {
+  background: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
+  url("../src/assets/5e9267a5-3135-43d5-8c31-afa4c3b267e6_distance-learning-tools-for-teachers.jpg");
+  height: 90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#third {
+  background: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)),
+  url("../src/assets/Top-5-Benefits-Of-eLearning-Education.webp");
+  height: 90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.mask .btn-outline-warning {
+  margin-left: 80px;
+}
+.mask {
+  margin-top: 400px;
+}
+
+form p{
+  font-size: 12px;
+  margin-top: -10px;
+  text-align: right;
+}
+
+span{
+  cursor: pointer;
+}
+/* .courses{
+  font-size: 14px;
+}
+.courses .card{
+  cursor: pointer;
+}
+.courses .card p{
+  font-size: 12px;
+}
+footer a, i, p{
+  cursor: pointer;
+}
+footer a:hover, i:hover{
+  color: #CF8116 !important;
+} */
+
+@media (max-width: 687px) {
+  #first {
+    background: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
+      url("../src/assets/e-learning.png");
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #second {
+    background: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
+      url("../src/assets/5e9267a5-3135-43d5-8c31-afa4c3b267e6_distance-learning-tools-for-teachers.jpg");
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #third {
+    background: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)),
+      url("../src/assets/Top-5-Benefits-Of-eLearning-Education.webp");
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .btn-outline-warning {
+    width: 50% !important;
+  }
+  .mask {
+    margin-top: 200px;
+  }
+
+  .mask p {
+    font-size: 12px;
+  }
+  .card{
+    width: 90% !important;
+  }
+
+  .space{
+    padding: 2px !important;
+  }
+  
 }
